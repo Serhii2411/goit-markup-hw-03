@@ -11,6 +11,30 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .title-text {
   color: var(--title-text-color);
@@ -21,6 +45,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  margin-right: 93px;
 }
 .logo-color {
   color: var(--accent-color);
@@ -34,6 +59,23 @@ body {
 .link {
   text-decoration: none;
 }
+img {
+  display: block;
+}
+address {
+  font-style: normal;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
+}
 .site-nav a {
   color: var(--title-text-color);
   font-weight: 500;
@@ -43,6 +85,10 @@ body {
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
+}
+.auth-nav {
+  display: flex;
+  align-items: center;
 }
 .auth-nav a {
   color: var(--primery-text-color);
@@ -54,7 +100,9 @@ body {
 .auth-nav a:focus {
   color: var(--accent-color);
 }
-
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;

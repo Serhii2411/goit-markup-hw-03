@@ -1,0 +1,171 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-bg-color: #ffffff;
+}
+
+body {
+  background-color: var(--primery-bg-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.title-text {
+  color: var(--title-text-color);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-color);
+}
+.logo-second {
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.site-nav a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.auth-nav a {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.advantage-style {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.avantage.list .title {
+  font-weight: 700;
+  line-height: 1.42;
+}
+.avantage.list .text {
+  line-height: 1.71;
+}
+.button-order {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: #188ce8;
+}
+.button-filter {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+.auth-down a {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  font-style: normal;
+}
+.auth-down a:hover,
+.auth-down a:focus {
+  color: var(--accent-color);
+}
+.location {
+  color: #ffffff;
+}
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.project-type .text {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.member {
+  background-color: #ffffff;
+}
+.top-page {
+  background-color: #ffffff;
+}
+.dawn-page {
+  background-color: #2f303a;
+}
+.projects-color {
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.project-style {
+  text-decoration: none;
+  color: var(--primery-text-color);
+}
+/*#212121 текст основного кол */
+/*#757575; текст вторичний кол*/
+/* #E5E5E5 основний фон */
+/* #F5F4FA вторичний фон */
+/* білий #FFFFFF */
+/*#2196F3 акцент*/ ;

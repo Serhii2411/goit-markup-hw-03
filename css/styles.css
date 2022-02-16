@@ -329,12 +329,43 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.names {
+.names-ig {
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-right: 56px;
+  width: 151px;
+}
+.names-ol {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  width: 114px;
+}
+.names-ni {
+  margin-top: 30px;
+  margin-left: 66px;
+  margin-bottom: 20px;
+  margin-right: 56px;
+  width: 146px;
+}
+
+.names-mi {
+  margin-top: 30px;
+  margin-left: 68px;
+  margin-bottom: 20px;
+  margin-right: 56px;
+  width: 144px;
 }
 .position {
   margin-left: 70px;
+}
+.position-ni {
+  margin-left: 100px;
+}
+.position-mi {
+  margin-left: 96px;
 }
 .top-page {
   background-color: #ffffff;

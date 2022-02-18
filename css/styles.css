@@ -131,8 +131,6 @@ address {
 }
 .hero {
   background-color: #2f303a;
-}
-.hero.container {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -305,7 +303,7 @@ address {
   color: var(--primery-text-color);
 }
 .our-team {
-  margin-left: 460px;
+  text-align: center;
   margin-bottom: 50px;
 }
 .list-members {
